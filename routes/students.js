@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Joi = require('joi');
+//const verifyToken = require('../middlewares/auth');
 
 const students = [
     {id: 1, name: 'hugues'},
